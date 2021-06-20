@@ -22,12 +22,7 @@ app.get('/users', (req, res) => {
         },
         {
             name: "Celina",
-            surname: "Kowalska"
-        },
-        {
-            name: "Danuta",
-            surname: "Kowalska"
-        }
+            
     ]
     res.send(users)
   })
