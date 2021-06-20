@@ -15,6 +15,14 @@ app.get('/users', (req, res) => {
         {
             name: "Anna",
             surname: "Kowalska"
+        },
+        {
+            name: "Barbara",
+            surname: "Kowalska"
+        },
+        {
+            name: "Celina",
+            surname: "Kowalska"
         }
     ]
     res.send(users)
